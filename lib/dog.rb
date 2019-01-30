@@ -20,6 +20,12 @@ class Dog
     @breed
   end
 
-
+def breed_default (breed)
+  if @breed = nil
+    puts "Mutt"
+  else
+    @breed
+  end
+end
 
 end
