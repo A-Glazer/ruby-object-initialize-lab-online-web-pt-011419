@@ -1,7 +1,7 @@
 class Dog
   attr_accessor :name, :breed
 
-  def initialize(input = {})
+  def initialize(:name, input = {})
     @name = name
     @breed = input.fetch(:breed, "Mutt")
   end
