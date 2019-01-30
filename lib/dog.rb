@@ -3,7 +3,7 @@ class Dog
 
   def initialize(:name, :breed)
     @name = name
-    @breed = input.fetch(:breed, "Mutt")
+    @breed = breed.fetch(:breed, "Mutt")
   end
 
   def to_s
