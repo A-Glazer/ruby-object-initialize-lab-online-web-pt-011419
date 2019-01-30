@@ -22,7 +22,7 @@ class Dog
 
 def breed_default (breed)
   if @breed = nil
-    "Mutt"
+    @breed = "Mutt"
   else
     @breed
   end
