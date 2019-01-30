@@ -8,6 +8,6 @@ class Person
 #  def name
 #    @name
 #  end
-
+attr_accessor :name
 
 end
