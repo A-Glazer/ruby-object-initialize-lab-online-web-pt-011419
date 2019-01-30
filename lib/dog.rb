@@ -7,7 +7,7 @@ class Dog
   end
 
   def to_s
-    "#{name} #{breed}"
+    "#{breed}"
   end
 
 end
