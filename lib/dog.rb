@@ -4,9 +4,6 @@ class Dog
   def initialize(input)
     @name = name
     @breed = input.fetch(:breed, "Mutt")
-
-
-
   end
 
 
