@@ -6,6 +6,8 @@ class Dog
     @breed = input.fetch(:breed, "Mutt")
   end
 
+  def to_s
+    "#{name} #{breed}"
 
 
 end
