@@ -8,6 +8,6 @@ class Dog
 
   def to_s
     "#{name} #{breed}"
-end
+  end
 
 end
